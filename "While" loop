@@ -1,0 +1,15 @@
+print("Multiplication Table")
+
+fig = 1
+multipler = 1
+
+while fig <= 12:
+    print(f"{fig} times table")
+    print("\n")
+    while multipler <= 12:
+        print(f"{fig}*{multipler} = {fig*multipler}")
+        multipler += 1
+
+    fig += 1
+    multipler = 1
+    print("\n")
